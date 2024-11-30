@@ -868,4 +868,12 @@ section{
         width: 60%;
         margin-bottom: 5%;
     }
+    html{
+        scroll-snap-type: none;
+    }
+    section{
+        height: 100vh;
+        scroll-snap-align: none;
+        scroll-snap-stop: normal;
+    }
   }
