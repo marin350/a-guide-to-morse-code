@@ -777,7 +777,7 @@ section{
         width: 300px;
         position: relative;
         top: -4%;
-        margin-bottom: -10%;
+        margin-bottom: -7%;
     }
     .radius-block {
         transition: border-radius 0.3s ease; 
@@ -831,9 +831,10 @@ section{
     .view-results{
         position: relative;
         left: 22%;
+        top: 20%;
     }
     .my-results{
-        font-size: 400%;
+        font-size: 350%;
         line-height: 70px;
         position: relative;
         top: 15%;
@@ -855,7 +856,7 @@ section{
         top: 25%;
     }
     .message-text{
-        font-size: 400%;
+        font-size: 300%;
         position: relative;
         top: 25%;
         line-height: 90px;
