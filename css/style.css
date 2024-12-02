@@ -735,6 +735,9 @@ section{
 }
 
 @media only screen and (max-width: 735px) {
+    body{
+        height: auto;
+    }
     .nav-button:hover .dropdown, .nav-button:hover + .dropdown{
         display: block;
     }
@@ -751,22 +754,43 @@ section{
         display: block;
         background-color: var(--yellow);
     }
+    .dualscroll {
+        display: flex; 
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .split {
+        width: 100%;
+        height: 100vh;
+        overflow-x: scroll;
+    }
     .englishtext{
         display: block;
-        font-size: 40%;
+        font-size: 50%;
         letter-spacing: -3px;
-        line-height: 50px;
+        line-height: 60px;
         padding-top: 55px;
-        cursor: pointer
-    }
-    .body-text{
         margin-top: 15%;
-        text-align: justify;
-        font-size: 12%;
-        line-height: 22px;
+        padding-left: 2px;
     }
     .morse{
         font-size: 500%;
+        padding-top: 20%;
+    }
+    .body-text{
+        margin-top: 20%;
+        margin: 2%;
+        padding-left: 2px;
+        text-align: justify;
+        position: relative;
+        top: 2%;
+        font-size: 12%;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .p2{
+        display: none;
     }
     .button{
         display: flex;
@@ -776,7 +800,7 @@ section{
         height: 300px;
         width: 300px;
         position: relative;
-        top: -4%;
+        top: 0%;
     }
     .comm-pc{
         position: relative;
@@ -793,23 +817,30 @@ section{
         padding: 8%;
         text-align: center;
         position: relative;
-        left: -5%;
-        top: 7%;
+        left: 0%;
+        top: 5%;
+        width: 96%;
+        word-break: break-all;
     }
     .ackey{
         font-size: 120%;
         position: relative;
-        top: 2%;
+        top: 4%;
         height: 80%;
         padding-bottom: 10px;
     }
     .option{
         position: relative;
         top: 7%;
-        height: 110vh;
+        height: 95vh;
     }
+    .key-section{
+        margin-top: 216%;
+    }
+    
     .optitle{
         font-size: 150%;
+        margin-top: 5%;
     }
     .intro-prac-text{
         font-size: 550%;
@@ -833,14 +864,14 @@ section{
     }
     .view-results{
         position: relative;
-        left: 30%;
-        top: 30%;
+        left: 20%;
+        top: 20%;
     }
     .my-results{
         font-size: 350%;
         line-height: 70px;
         position: relative;
-        top: 20%;
+        top: 18%;
     }
     #less{
         position: relative;
@@ -859,11 +890,13 @@ section{
         top: 25%;
     }
     .message-text{
-        font-size: 350%;
+        font-size: 300%;
         position: relative;
         top: 25%;
         line-height: 90px;
         width: 70%;
+        text-align: center;
+        left: -3%;
     }
     .mess-input{
         width: 80%;
@@ -879,5 +912,12 @@ section{
         height: 100vh;
         scroll-snap-align: none;
         scroll-snap-stop: normal;
+    }
+    .marquee{
+        top: -15%;
+    }
+    .marquee2{
+        top: -24%;
+        gap: 10px;
     }
   }
