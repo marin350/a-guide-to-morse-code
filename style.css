@@ -920,4 +920,13 @@ section{
         top: -24%;
         gap: 10px;
     }
+    .translate-button, .share-button{
+       position: relative;
+       top: 200px;
+    }
+    #output{
+        width: 80%;
+        font-size: 110%;
+        margin-top: 2%;
+    }
   }
